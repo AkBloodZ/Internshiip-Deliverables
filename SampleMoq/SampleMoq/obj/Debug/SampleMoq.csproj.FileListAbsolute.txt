@@ -1,0 +1,17 @@
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\bin\Debug\SampleMoq.dll
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\bin\Debug\SampleMoq.pdb
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\obj\Debug\SampleMoq.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\obj\Debug\SampleMoq.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\obj\Debug\SampleMoq.csproj.CopyComplete
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\obj\Debug\SampleMoq.dll
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\obj\Debug\SampleMoq.pdb
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\bin\Debug\ArithmeticOperations.dll
+C:\Users\USER\source\repos\SampleMoq\SampleMoq\bin\Debug\ArithmeticOperations.pdb

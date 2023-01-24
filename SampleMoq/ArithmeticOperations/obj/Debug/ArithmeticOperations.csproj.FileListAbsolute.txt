@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\SampleMoq\ArithmeticOperations\bin\Debug\ArithmeticOperations.dll
+C:\Users\USER\source\repos\SampleMoq\ArithmeticOperations\bin\Debug\ArithmeticOperations.pdb
+C:\Users\USER\source\repos\SampleMoq\ArithmeticOperations\obj\Debug\ArithmeticOperations.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\SampleMoq\ArithmeticOperations\obj\Debug\ArithmeticOperations.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\SampleMoq\ArithmeticOperations\obj\Debug\ArithmeticOperations.dll
+C:\Users\USER\source\repos\SampleMoq\ArithmeticOperations\obj\Debug\ArithmeticOperations.pdb
