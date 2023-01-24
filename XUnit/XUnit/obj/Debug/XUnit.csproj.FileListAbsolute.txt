@@ -1,0 +1,8 @@
+C:\Users\USER\source\repos\XUnit\XUnit\obj\Debug\XUnit.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\XUnit\XUnit\obj\Debug\XUnit.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\source\repos\XUnit\XUnit\obj\Debug\XUnit.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\XUnit\XUnit\bin\Debug\XUnit.exe.config
+C:\Users\USER\source\repos\XUnit\XUnit\bin\Debug\XUnit.exe
+C:\Users\USER\source\repos\XUnit\XUnit\bin\Debug\XUnit.pdb
+C:\Users\USER\source\repos\XUnit\XUnit\obj\Debug\XUnit.exe
+C:\Users\USER\source\repos\XUnit\XUnit\obj\Debug\XUnit.pdb
