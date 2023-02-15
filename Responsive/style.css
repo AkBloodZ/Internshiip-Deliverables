@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+	flex-direction: column;
+	min-height: 200vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-links {
+  justify-content: space-around;
+  width: auto;
+}
+
+.nav-links a:hover {
+  color: rgb(225, 135, 9);
+}
+
+ul {
+  display: flex;
+  margin-right: 1px;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.burger {
+  cursor: pointer;
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.main-content {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  width: 97.6vw;
+  height: auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  /* row-gap: 10vw; */
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: calc(100vh - 8vh);
+  border: 2px solid grey;
+}
+
+.first {
+  margin-left: 0px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: auto;
+  width: 30%;
+
+}
+
+.second {
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: auto;
+  width: 30%;
+}
+
+.third {
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: auto;
+  width: 30%;
+}
+
+.fourth {
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: auto;
+  width: 30%;
+}
+
+.fifth {
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: auto;
+  width: 30%;
+}
+
+.sixth {
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: auto;
+  width: 30%;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  height: 7vh;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center; 
+}
+
+.nav-links.nav-active {
+  display: flex;
+}
+
+
+@media (max-width: 768px) {
+  
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: right;
+    width: auto;
+    height: auto;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-800%);
+  }
+
+  .main-content {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .first {
+    margin-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+  
+  }
+  
+  .second {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+  }
+  
+  .third {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+  }
+  
+  .fourth {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+  }
+  
+  .fifth {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+  }
+  
+  .sixth {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+  }
+
+  hr {
+    border: none;
+    border-top: 3px double black;
+    color: black;
+    overflow: visible;
+    text-align: center;
+  }
+
+  ul {
+    display: list-item;
+    line-height: 30px;
+    list-style: none;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .nav-links.nav-active {
+    transform: translateX(0);
+  }
+
+  .nav-link {
+    display: block;
+    margin: 20px 0;
+  }
+
+
+  .burger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: right;
+    width: auto;
+    height: auto;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-800%);
+  }
+
+  .main-content {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 200vh;
+    width: auto;
+  }
+
+  .first {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .second {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .third {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .fourth {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .fifth {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .sixth {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+  }
+
+  hr {
+    border: none;
+    border-top: 3px double black;
+    color: black;
+    overflow: visible;
+    text-align: center;
+  }
+
+  ul {
+    display: list-item;
+    line-height: 30px;
+    list-style: none;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .nav-links.nav-active {
+    transform: translateX(0);
+  }
+
+  .nav-link {
+    display: block;
+    margin: 20px 0;
+  }
+
+  .burger {
+    display: block;
+  }
+}
